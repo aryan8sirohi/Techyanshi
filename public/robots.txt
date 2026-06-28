@@ -1,0 +1,11 @@
+# Robots.txt for TechYanshi
+# https://techyanshi.com
+
+User-agent: *
+Allow: /
+
+# Disallow admin areas
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://techyanshi.com/sitemap.xml
