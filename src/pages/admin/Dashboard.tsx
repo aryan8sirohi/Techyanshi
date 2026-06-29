@@ -6,7 +6,7 @@ import { formatDateShort } from '@/lib/utils';
 
 async function fetchStats() {
   const [contacts, newsletter, blog, testimonials, projects] = await Promise.all([
-    supabase.from('contacts').select('id, status, created_at').order('created_at', { ascending: false }),
+    supabase.from('contacts').select('id, name, email, service, status, created_at').order('created_at', { ascending: false }),
     supabase.from('newsletter_subscribers').select('id, status'),
     supabase.from('blog_posts').select('id, published'),
     supabase.from('testimonials').select('id, published'),
