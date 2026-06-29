@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import HeroSection from '@/components/sections/HeroSection';
-import StatsSection from '@/components/sections/StatsSection';
+// import StatsSection from '@/components/sections/StatsSection';
 import ServicesSection from '@/components/sections/ServicesSection';
 import WhyUsSection from '@/components/sections/WhyUsSection';
 import ProcessSection from '@/components/sections/ProcessSection';
@@ -37,7 +37,7 @@ export default function Home() {
       </Helmet>
 
       <HeroSection />
-      <StatsSection />
+      {/* <StatsSection /> */}
       <ProblemSection />
       <ServicesSection />
       <WhyUsSection />

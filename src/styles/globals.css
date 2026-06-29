@@ -98,6 +98,18 @@
     @apply w-full px-4 py-3 glass rounded-xl text-white placeholder-neutral-500 focus:outline-none focus:ring-2 focus:ring-accent-500/50 focus:border-accent-500/50 transition-all duration-200;
   }
 
+  select.input-field {
+    @apply appearance-none bg-no-repeat pr-10;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23a3a3a3'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'/%3E%3C/svg%3E");
+    background-size: 1.25rem;
+    background-position: calc(100% - 1rem) center;
+  }
+
+  select.input-field option {
+    background-color: #080d1f; /* Matches navy-950 background */
+    color: #ffffff;
+  }
+
   .section-label {
     @apply text-xs font-bold uppercase tracking-[0.2em] text-accent-400;
   }

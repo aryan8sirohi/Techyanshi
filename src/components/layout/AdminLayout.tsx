@@ -74,9 +74,11 @@ export default function AdminLayout() {
       >
         {/* Logo */}
         <div className="flex items-center gap-3 px-6 h-16 border-b border-navy-800/50">
-          <div className="w-8 h-8 rounded-lg bg-accent-gradient flex items-center justify-center">
-            <span className="text-white font-bold text-xs">TY</span>
-          </div>
+          <img
+            src="/logo.jpg"
+            alt="TechYanshi Logo"
+            className="w-8 h-8 rounded-lg object-cover"
+          />
           <span className="font-display font-bold text-white">
             Tech<span className="gradient-text-blue">Yanshi</span>
           </span>

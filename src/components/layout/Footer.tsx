@@ -60,9 +60,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-3 mb-5 group w-fit">
-              <div className="w-10 h-10 rounded-xl bg-accent-gradient flex items-center justify-center shadow-glow-sm">
-                <span className="text-white font-bold">TY</span>
-              </div>
+              <img
+                src="/logo.jpg"
+                alt="TechYanshi Logo"
+                className="w-10 h-10 rounded-xl object-cover shadow-glow-sm"
+              />
               <span className="font-display font-bold text-2xl text-white">
                 Tech<span className="gradient-text-blue">Yanshi</span>
               </span>

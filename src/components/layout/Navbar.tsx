@@ -74,9 +74,11 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-18">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
-            <div className="w-9 h-9 rounded-xl bg-accent-gradient flex items-center justify-center shadow-glow-sm group-hover:shadow-glow transition-all duration-300">
-              <span className="text-white font-bold text-sm">TY</span>
-            </div>
+            <img
+              src="/logo.jpg"
+              alt="TechYanshi Logo"
+              className="w-9 h-9 rounded-xl object-cover shadow-glow-sm group-hover:shadow-glow transition-all duration-300"
+            />
             <span className="font-display font-bold text-xl text-white tracking-tight">
               Tech<span className="gradient-text-blue">Yanshi</span>
             </span>

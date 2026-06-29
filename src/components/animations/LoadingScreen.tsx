@@ -11,9 +11,11 @@ export default function LoadingScreen() {
         className="flex flex-col items-center gap-6"
       >
         <div className="relative">
-          <div className="w-16 h-16 rounded-2xl bg-accent-gradient flex items-center justify-center shadow-glow">
-            <span className="text-white font-bold text-xl">TY</span>
-          </div>
+          <img
+            src="/logo.jpg"
+            alt="TechYanshi Logo"
+            className="w-16 h-16 rounded-2xl object-cover shadow-glow"
+          />
           <motion.div
             animate={{ scale: [1, 1.4, 1], opacity: [0.5, 0, 0.5] }}
             transition={{ duration: 2, repeat: Infinity }}

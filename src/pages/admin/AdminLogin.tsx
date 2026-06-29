@@ -60,9 +60,11 @@ export default function AdminLogin() {
       >
         {/* Logo */}
         <div className="text-center mb-8">
-          <div className="w-16 h-16 rounded-2xl bg-accent-gradient flex items-center justify-center mx-auto mb-4 shadow-glow">
-            <span className="text-white font-bold text-xl">TY</span>
-          </div>
+          <img
+            src="/logo.jpg"
+            alt="TechYanshi Logo"
+            className="w-16 h-16 rounded-2xl object-cover mx-auto mb-4 shadow-glow"
+          />
           <h1 className="text-2xl font-display font-bold text-white">Admin Login</h1>
           <p className="text-sm text-neutral-400 mt-1">TechYanshi Management Panel</p>
         </div>
@@ -75,7 +77,7 @@ export default function AdminLogin() {
               value={email}
               onChange={e => setEmail(e.target.value)}
               required
-              placeholder="admin@techyanshi.com"
+              placeholder="techyanshi1@gmail.com"
               className="input-field"
               autoComplete="email"
             />

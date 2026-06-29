@@ -32,7 +32,7 @@ export const COMPANY = {
     ],
     skills: ['Python', 'SQL', 'Power BI', 'Tableau', 'Excel', 'React', 'Node.js', 'MongoDB'],
     social: {
-      linkedin: '#',
+      linkedin: 'https://www.linkedin.com/in/priyanshi-gupta2003/',
       github: '#',
       portfolio: '#',
       email: 'techyanshi1@gmail.com',
@@ -40,7 +40,7 @@ export const COMPANY = {
     image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600',
   },
   social: {
-    linkedin: 'https://linkedin.com',
+    linkedin: 'https://www.linkedin.com/in/priyanshi-gupta2003/',
     github: 'https://github.com',
     twitter: 'https://twitter.com',
   },

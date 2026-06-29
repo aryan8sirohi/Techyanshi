@@ -45,6 +45,7 @@ export default function ContactForm() {
     register,
     handleSubmit,
     setValue,
+    reset,
     formState: { errors, isSubmitting },
   } = useForm<ContactFormData>({
     resolver: yupResolver(schema),
@@ -77,7 +78,11 @@ export default function ContactForm() {
           within 24 hours.
         </p>
         <button
-          onClick={() => setSubmitted(false)}
+          onClick={() => {
+            reset();
+            setBudget(BUDGET_MIN);
+            setSubmitted(false);
+          }}
           className="btn-secondary text-sm"
         >
           Send Another Message
